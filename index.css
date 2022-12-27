@@ -25,7 +25,7 @@
     padding: 3%;
     border: 5px;
     border-top-left-radius: 3%;
-    border-bottom-left-radius: 3%;
+    border-bot#tom-left-radius: 3%;
     color: white;
 }
 
@@ -63,10 +63,13 @@ footer {
 #video {
     padding-top: 1%;
     padding-bottom: 1%;
-    max-width: 350px;
-    max-height: 350px;
-    
+    display: flex;
+    border: 2px;
+    border-radius: 3%;
+    border-style: solid;
+    color: red;
 }
+
 
 /* estilização FONTE */
 body {
@@ -171,10 +174,10 @@ img.d-block.w-100{
     color: gray;
 }
 
-section{
+/* section{
     columns: 3;
     column-gap: 50px;
-}
+} */
 
 .institucional{
     padding-top: 3%;
@@ -201,67 +204,75 @@ a:hover{
     color: gray;
 }
 
-/* a:active{
-    color: gray;
-    background-color: transparent;
-    text-decoration: solid;
-} */
-
 /*iconsMedia */
 #InstaMedia,
 #YTmedia,
 #faceMedia{
     display: inline-flex;
     flex-wrap: nowrap;
+    flex-direction: row;
     width: 30px;
     height: 30px;
 
 } 
 
-.figure{
-    justify-content: center;    
-    display: flex;
-    margin-top: 3%;
-} 
 
-
-.balaoFigura{
+#balaoFigura{
     display: flex;
     justify-content: center;
+    border: 2px;
+    border-style: solid;
+    color: darkcyan;
 }
 
 /* .MediaSociais{
-max-width: 100px;
-min-height: 100px;
-justify-content: space-evenly;
-flex-wrap: nowrap;
-display: flex;
-flex-direction: row;
-} */
 
-.NavSocial{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+}  */
 
-.NavSocial li{
-    display: inline-block;
-    padding: 20px;
-}
+
 
 .borderInstitucional{
-    border-color: white;
-    border-right: 1px;
-    border-left: 1px;
+    color: black;
+    border: 1px;
     border-style: solid;
-    border-bottom: transparent;
-    border-top: transparent;
-    margin-top: 10%;
+    border-radius: 3%;
 }
 
-/* Border Footer Center */
+/* Border Footer Principal */
 #sessaoBorder{
     padding:1%;
+    border:1px;
+    border-style: solid;
+    color: aqua;
+    flex-direction: row;
+    display: inline-flex;
+    
 }
 
+ul#NavSocial{
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin-inline-start: 0%;
+    margin-inline-end: 0%;
+    padding-inline-start: 0px;
+    display: flex;
+    justify-content: space-around;
+
+    border: 2px;
+    border-style: solid;
+    color: blueviolet;
+}
+
+#RedeSociais{
+    border: 2px;
+    border-style: solid;
+    color: coral;
+    display: block;
+}
+
+#rodaPE{
+    border: 2px;
+    border-radius: 3%;
+    color: springgreen;
+    border-style: solid;
+}

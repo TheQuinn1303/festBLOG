@@ -77,8 +77,8 @@
     </nav>
     <!--Sides laterais e corpo do centro-->
     <div id="sides" class="row">
-        <div id="verdedir" class="col-sm"></div>
-        <div id="PretoCentro" class="col-lg"> 
+        <div id="verdeesq" class="col-xs-6 col-md-4"></div>
+        <div id="PretoCentro" class="col-xs-6 col-md-4"> 
             <div id="Carrosel" class="row ">
                 <div id="carouselExampleControls" class="carousel slide align-" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -130,9 +130,19 @@
                     </button>
                 </div>
             </div>
+                <div id ="textoCard" class="card-body ">
+                    <h5 class="card-title"><b>Hi Float</b></h5>
+                    <br>
+                    <p class="card-text"> HI-FLOAT é projetado para ser utilizado em balões que são mantidos em recintos
+                        fechados e com temperatura controlada, com aquecedor ou ar-condicionado funcionando.<br><br>Balões tratados
+                        com HI-FLOAT mantidos ao ar livre, em temperaturas úmidas ou em locais sem controle de temperatura
+                        podem não flutuar por tempo prolongado.</p>
+                    <p class="card-text"><small class="text-muted">Atualizado: dd/mm/aa</small></p>
+                </div> 
         </div>
-        <div id = "centroDir" class="col-lg">
-            <!-- card abaixo carousel-->
+        
+        <!-- <div id = "centroDir" class="col-xs-2 col-sm col-md col-lg col-xl col-xxl">
+            card abaixo carousel
             <div class="card-body">
                 <h5 class="card-title"><b>Hi Float</b></h5>
                 <br>
@@ -141,16 +151,18 @@
                     com HI-FLOAT mantidos ao ar livre, em temperaturas úmidas ou em locais sem controle de temperatura
                     podem não flutuar por tempo prolongado.</p>
                 <p class="card-text"><small class="text-muted">Atualizado: dd/mm/aa</small></p>
-            </div>
-        </div>
-        <div id="verdeesq" class="col-sm"></div>
+            </div> 
+        </div> -->
+        <!-- <div id="verdeesq" class="col-xs-6 col-md-4"></div> -->
+        <div id="verdedir" class="col-xs-6 col-md-4"></div>
     </div>
 
-    <footer class="text-center text-white">
+    
+    <footer class="text-center text-white col-xs-6 col-md4">
         <div id = "rodaPE" class="container">
             <!--iframe selection-->
-            <section id="sessaoBorder" class="col-md">
-                <div id="video" class="row d-flex justify-content-left">
+            <div id="sessaoBorder" class="col-md">
+                <div class="row d-inline-flex">
                     <div id="video" class="col-md-12">
                         <div class="ratio ratio-16x9">
                             <iframe class="shadow-1-strong rounded" src="https://www.youtube.com/embed/W9PutZXpVGE"
@@ -161,7 +173,7 @@
                     </div>
                 </div>
                 <!-- Footer Content -->
-                <div class="borderInstitucional">
+                <div class="borderInstitucional col-xs-6 col-md-4">
                     <p id="institucionalTexto"><b>Institucional</b></p>
                         <div class="textoInsideInstitu">
                                 <a href="https://www.festday.com.br/quem-somos">Quem Somos</a>
@@ -176,38 +188,36 @@
                         </div>
                 </div>            
                 
-                <div class="RedeSociais">
+                <div id="RedeSociais" class="col-xs-6 col-md-4">
                     <!-- figura -->
-                    <div  id ="balaoFigura" class="col-sm">
+                    <div  id ="balaoFigura" class="col-xs col-sm col-md">
                         <figure class="figure">
                             <img src="https://images.tcdn.com.br/img/img_prod/1028527/1636207608_icone-site.ico?63993fe41799c" class="figure-img" alt="ballons" style="width: 100px; height: 100px;">
                         </figure>
                     </div>
                     <!-- miniMenuSocial -->
-                    <div id="MediasSociais" class="col-sm">
-                        <ul class="NavSocial">
+                    <div id="MediaSociais" class="col-xs col-md-12">
+                        <ul id="NavSocial" class="col-xs col-md-12" style="list-style: none;">
                         <li><a id="InstaMedia" href="https://www.instagram.com/festdaybaloes">
-                                <img src="C:\Users\User\Documents\GitHub\festBLOG\festBLOG\IconsMedia\instagram.png" alt="instagram" style="height:35; width:35;">
+                                <img src="IconsMedia\instagram.png" alt="instagram" style="height:35; width:35;">
                             </a></li>
                         
                             <li><a id="YTmedia" href="https://www.youtube.com/@festdaybaloes">
-                                <img src="C:\Users\User\Documents\GitHub\festBLOG\festBLOG\IconsMedia\youtube.png" alt="YouTube" style="height:35; width:35;">
+                                <img src="IconsMedia\youtube.png" alt="YouTube" style="height:35; width:35;">
                             </a></li>
                         
                             <li><a id="faceMedia" href="https://www.facebook.com/festdayonline/">
-                                <img src="C:\Users\User\Documents\GitHub\festBLOG\festBLOG\IconsMedia\facebook.png" alt="Facebook" style="height:35; width:35;">
+                                <img src="IconsMedia\facebook.png" alt="Facebook" style="height:35; width:35;">
                             </a></li>
                         </ul>
                     </div>
-
                 </div>
-            </section>
+            </div>
         </div>
         <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
                 © 2022 Copyright:
                 <a class="text-white" href="https://github.com/TheQuinn1303">MisterDevs</a>
         </div>
     </footer>
-
 </body>
 </html>
