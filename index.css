@@ -1,10 +1,12 @@
-.img {
-    padding: 10px;
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
 }
 
-.row {
-    border-top: 1px solid #ff92b9;
-    
+.img {
+    padding: 10px;
 }
 
 .col {
@@ -12,10 +14,9 @@
 }
 
 #verdedir {
-    background-color: white;
-    min-height: 450px;
+    /* min-height: 450px;
     min-width: 50px;
-    padding: 0%;
+    padding: 0%; */
 }
 
 #PretoCentro {
@@ -31,21 +32,13 @@
 }
 
 #verdeesq {
-    background-color: white;
-    min-height: 450px;
+    /* min-height: 450px;
     min-width: 50px;
-    padding: 0%;
+    padding: 0%; */
+    
 }
 
-#centroDir {
-    background-color: #ff92b9;
-    min-height: 450px;
-    max-width: none;
-    padding: 3%;
-    border: 5px;
-    border-top-right-radius: 3%;
-    border-bottom-right-radius: 3%;
-}
+
 
 footer {
     background: #ff92b9;
@@ -64,7 +57,7 @@ footer {
 }
 
 #video {
-display:inline-block;
+/* display:inline-block; */
 padding: 3%;
 margin-top: 1%;
 
@@ -271,4 +264,22 @@ ul#NavSocial{
 
 #Carrosel{
     display: flexbox;
+}
+
+#containerESQ{
+    display: inline-block;
+    width: 50%;
+
+}
+
+#containerDIR{
+    display: inline-block;
+    width: 50%;
+
+}
+
+#containerCENTRAL{
+display: flex;
+justify-content: center;
+padding: 3%;
 }
