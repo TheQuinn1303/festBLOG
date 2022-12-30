@@ -13,11 +13,6 @@ body{
     border: 1px solid black;
 }
 
-#verdedir {
-    /* min-height: 450px;
-    min-width: 50px;
-    padding: 0%; */
-}
 
 #PretoCentro {
     background-color: #ff92b9;
@@ -31,22 +26,19 @@ body{
     flex-direction: row;
 }
 
-#verdeesq {
-    /* min-height: 450px;
-    min-width: 50px;
-    padding: 0%; */
-    
-}
 
 
 
 footer {
     background: #ff92b9;
     justify-content: center;
+    align-items:center;
+    position: static;
+    bottom: 0;
 }
 
 /*sides laterais resposive*/
-#sides {
+/* #sides {
     width: auto;
     height: auto;
     padding-top: 3%;
@@ -54,14 +46,12 @@ footer {
     margin: 0%;
     display: flex;
 
-}
+} */
 
 #video {
 /* display:inline-block; */
 padding: 3%;
 margin-top: 1%;
-
-
 }
 
 
@@ -258,12 +248,8 @@ ul#NavSocial{
 
 #textoCard{
     padding: 5%;
-    display: flexbox;
+    display: block;
 
-}
-
-#Carrosel{
-    display: flexbox;
 }
 
 #containerESQ{
@@ -282,4 +268,24 @@ ul#NavSocial{
 display: flex;
 justify-content: center;
 padding: 3%;
+flex-wrap: wrap;
+}
+
+#carouselExampleFade{
+    display: flex;
+    width: 300px;
+    height:100%;
+    flex-wrap: nowrap;
+    border-radius: 3%;
+}
+.d-flex.w-100{
+    border-radius: 3%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 15%;
+}
+
+.carousel-inner{
+    max-width: 100%;
+    display: flex;
 }
