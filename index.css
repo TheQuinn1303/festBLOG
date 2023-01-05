@@ -289,3 +289,15 @@ flex-wrap: wrap;
     max-width: 100%;
     display: flex;
 }
+
+.showSearch{
+    /* visibility: hidden; */
+    position: flex;
+    margin: 3%;
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius:10px ;
+    border-color: #ff92b9;
+
+}

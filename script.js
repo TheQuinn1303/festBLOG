@@ -14,17 +14,14 @@ const list = [
 ];
 
 
-
-
-
-const output = document.querySelector(".dropdown-item");
+const output = document.querySelector(".showSearch");
 const search = document.querySelector(".form-control.me-2");
 
 window.addEventListener("DOMContentLoaded", loadlist);
 search.addEventListener('input' , filter)
 
 function loadlist(){
-    let temp =`<ul class = "list-items>"`;
+    let temp =`<ul class="list-items">`;
     list.forEach(item => {
         temp += `<li class= "list-item"> ${item} </li>`;
     });
@@ -50,3 +47,12 @@ function filter (e){
     output.innerHTML = temp;
 
 }
+
+// searchDropDown hidden and show
+// document.getElementsByClassName('showSearch').style.visibility = 'visible';
+
+// function mostrarMenu( ){
+//     if () {
+        
+//     }
+// }
