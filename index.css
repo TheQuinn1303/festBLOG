@@ -299,5 +299,43 @@ flex-wrap: wrap;
     border-style: solid;
     border-radius:10px ;
     border-color: #ff92b9;
+    align-content: center;
+    
+}
+
+.list-item{
+    list-style:none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
+.list-item{
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.3s;
+}
+
+.list-item:last-child{
+    border-bottom: none;
+}
+
+.list-item:hover{
+    background-color: #ff92b9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sem-item{
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-left:  5px solid white;
+    background-color: #ff92b9;
+    color: #ccc;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+

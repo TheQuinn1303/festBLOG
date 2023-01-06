@@ -15,10 +15,11 @@ const list = [
 
 
 const output = document.querySelector(".showSearch");
-const search = document.querySelector(".form-control.me-2");
+const input = document.querySelector("#PesquisaFest");
 
 window.addEventListener("DOMContentLoaded", loadlist);
-search.addEventListener('input' , filter)
+input.addEventListener('input' , filter);
+
 
 function loadlist(){
     let temp =`<ul class="list-items">`;
@@ -27,32 +28,26 @@ function loadlist(){
     });
     temp += `</ul>`;
     output.innerHTML = temp
+    
 }
 
-function filter (e){
-// console.log(e.target.value.toLowerCase());
+function filter(e) {
     let temp = '';
-    const result = list.filter(item=> item.toLowerCase().includes(e.target.value.toLowerCase()));
+    const result = list.filter(item => item.toLowerCase().includes(e.target.value.toLowerCase()));
     
-    if (result.length>0) {
-        temp =`<ul class = "list-items>"`;
-        list.forEach(item => {
+    if (result.length>0){
+        temp =`<ul class="list-items">`;
+        result.forEach(item => {
             temp += `<li class= "list-item"> ${item} </li>`;
         });
         temp += `</ul>`;
-    } else{
-        temp = `<div class ="no-item"> No Item Found </div>`;
+    }else{
+        temp = `<div class="sem-item>" Nada Encontrado </div>`;
     }
-
     output.innerHTML = temp;
-
 }
+    
 
-// searchDropDown hidden and show
-// document.getElementsByClassName('showSearch').style.visibility = 'visible';
 
-// function mostrarMenu( ){
-//     if () {
-        
-//     }
-// }
+
+
