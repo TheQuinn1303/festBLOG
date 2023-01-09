@@ -37,16 +37,6 @@ footer {
     bottom: 0;
 }
 
-/*sides laterais resposive*/
-/* #sides {
-    width: auto;
-    height: auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin: 0%;
-    display: flex;
-
-} */
 
 #video {
 /* display:inline-block; */
@@ -88,14 +78,6 @@ a.nav-link.active, a.nav-link.dropdown-toggle {
 }
 
 
-
-/* cor botão "PESQUISAR" */
-button.btn.btn-outline-success{
-    --bs-btn-border-color:#ff92b9;
-    --bs-btn-color:#ff92b9;
-    --bs-btn-hover-bg:#ff92b9;
-    --bs-btn-hover-border-color: #ff92b9;
-}
 
 
 /* borda arredondada carrousel */
@@ -289,53 +271,4 @@ flex-wrap: wrap;
     max-width: 100%;
     display: flex;
 }
-
-.showSearch{
-    /* visibility: hidden; */
-    position: flex;
-    margin: 3%;
-    background-color: white;
-    border: 1px;
-    border-style: solid;
-    border-radius:10px ;
-    border-color: #ff92b9;
-    align-content: center;
-    
-}
-
-.list-item{
-    list-style:none;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
-
-}
-.list-item{
-    background-color: white;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    transition: all 0.3s;
-}
-
-.list-item:last-child{
-    border-bottom: none;
-}
-
-.list-item:hover{
-    background-color: #ff92b9;
-    color: #fff;
-    cursor: pointer;
-}
-
-.sem-item{
-    border: 1px solid #ccc;
-    padding: 1rem;
-    border-left:  5px solid white;
-    background-color: #ff92b9;
-    color: #ccc;
-    text-align: center;
-    border-radius: 5px;
-    font-size: 1.2rem;
-}
-
 
